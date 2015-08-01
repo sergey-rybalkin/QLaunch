@@ -137,7 +137,7 @@ BOOL CDirectoryLister::OpenFile ( LPCTSTR lpszRootDirectory, DWORD dwIndex )
     if ( FAILED ( hr ) )
         return FALSE ;
 
-    return ( (int) ShellExecute ( 
+    return ( (INT_PTR) ShellExecute ( 
         m_hwndParent , TEXT ( "open" ) , szFilePath , NULL , NULL , SW_SHOWNORMAL ) > 32 ) ;
 }
 

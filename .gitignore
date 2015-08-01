@@ -35,3 +35,4 @@ PrecompiledWeb
 connectionStrings.config
 *.sass-cache
 ipch
+*.opensdf

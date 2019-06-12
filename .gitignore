@@ -1,3 +1,4 @@
+.vs
 *.aps
 *.bak
 *.cache
@@ -14,7 +15,6 @@
 *.sbr
 *.scc
 *.sdf
-*.suo
 *.tlb
 *.tlh
 *.user
